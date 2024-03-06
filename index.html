@@ -1,10 +1,72 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <title></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
     <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/media.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="main">
+      <div class="right">
+        <!-- <div id="clock"></div> -->
+        <div class="search">
+          <textarea
+            id="query"
+            rows="2"
+            cols="10"
+            placeholder="Search the web"
+            onkeydown="search(event)"
+          ></textarea>
+          <i class="fa-solid fa-magnifying-glass mag"></i>
+        </div>
+        <div class="links">
+          <a href="https://github.com" id="github" target="_blank">
+            <div class="grid github">
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </a>
+          <a href="https://youtube.com" id="youtube" target="_blank">
+            <div class="grid">
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </a>
+          <a href="https://monkeytype.com" id="monkey" target="_blank">
+            <div class="grid">
+              <i class="fa-solid fa-keyboard"></i>
+            </div>
+          </a>
+          <a href="https://mail.google.com" id="mail" target="_blank">
+            <div class="grid">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+          </a>
+          <a href="https://chat.openai.com" id="chatgpt" target="_blank">
+            <div class="grid">
+              <img class="chatgpt" src="assets/chatgpt.png" alt="" />
+            </div>
+          </a>
+          <div class="grid"></div>
+        </div>
+      </div>
+      <div class="left">
+        <div id="clock"></div>
+        <h1 class="greeting">
+          Good evening,<span class="srinath">Srinath</span>
+        </h1>
+      </div>
+    </div>
+    <script src="js/time.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/shortkey.js"></script>
+  </body>
 </html>
