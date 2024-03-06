@@ -1,4 +1,4 @@
-# FireDash 😺 :
+# FireDash 🦊 :
 
 Welcome to FireDash, your personalized Firefox dashboard! FireDash is a simple yet powerful dashboard designed to enhance your browsing experience by providing quick access to your favorite websites while keeping you informed about the date and time. 🔥🦊
 
