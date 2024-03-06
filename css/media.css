@@ -1,0 +1,54 @@
+@media (max-width: 760px) {
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .left {
+    width: 100%;
+    padding: 0 5%;
+    height: 40vh;
+  }
+
+  .right {
+    width: 100%;
+    height: 60vh;
+  }
+
+  #clock {
+    font-size: 4rem;
+    margin-top: 5rem;
+  }
+
+  .greeting {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .links {
+    margin: 2rem 0;
+    grid-gap: 1.5rem;
+    gap: 1.9rem;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+  }
+
+  .search {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  #clock {
+    font-size: 4.5rem;
+  }
+
+  .greeting {
+    font-size: 2rem;
+  }
+
+  .links {
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+  }
+}
