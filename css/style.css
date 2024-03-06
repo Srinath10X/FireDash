@@ -1,0 +1,134 @@
+/* ---- root variables ---- */
+:root {
+  /* ----  colors ---- */
+  --primary-color: #14141d;
+  --secondary-color: #42414d;
+  --font-color-primary: #f7fafc;
+  --font-color-secondary: #94939a;
+  --catppuccin-blue: #89b4fa;
+  --module-color: #23243c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.right {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#clock {
+  color: white;
+  font-size: 5.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.links {
+  width: 80%;
+  height: 15rem;
+  margin-top: 2.5rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+}
+
+.grid {
+  /* background: black; */
+  background: var(--secondary-color);
+  height: 5rem;
+  width: 5rem;
+  border-radius: 0.4rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  height: 100vh;
+  width: 50%;
+}
+
+#day {
+  color: var(--font-color-primary);
+}
+
+.search {
+  width: 74%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search textarea {
+  height: 4rem;
+  width: 100%;
+  resize: none;
+  line-height: 4rem;
+  padding: 0 3rem;
+  background: var(--secondary-color);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.greeting {
+  color: white;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.srinath {
+  color: var(--catppuccin-blue);
+}
+
+::placeholder {
+  color: var(--font-color-secondary);
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: var(--font-color-secondary);
+}
