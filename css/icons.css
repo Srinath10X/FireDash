@@ -1,0 +1,51 @@
+/* ---- root variables ---- */
+:root {
+  /* ----  colors ---- */
+  --primary-color: #14141d;
+  --secondary-color: #42414d;
+  --font-color-primary: #f7fafc;
+  --font-color-secondary: #94939a;
+  --catppuccin-blue: #89b4fa;
+  --module-color: #23243c;
+}
+
+.fa-brands,
+.fa-solid,
+.fa-regular {
+  color: var(--catppuccin-blue);
+  height: 90%;
+  width: 90%;
+  text-align: center;
+  line-height: 4.5rem !important;
+  font-size: 2rem;
+}
+
+.mag {
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  font-size: 1rem;
+  line-height: 1rem !important;
+  align-self: start;
+  margin-left: 1.2rem;
+}
+
+.chatgpt {
+  height: 2.6rem;
+}
+
+.fa-gear {
+  color: var(--catppuccin-blue);
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem !important;
+  font-size: 1rem;
+  bottom: 10px;
+  right: 10px;
+}
+
+.fa-github:hover {
+  color: var(--font-color-primary);
+  transition: 0.9s ease;
+}
