@@ -10,7 +10,7 @@ FireDash features a sleek and modern design in the delightful "catppuccino mocha
 
 ## Preview
 
-You can see the [preview](srinath-search.netlify.app)
+You can see the [preview](https://srinath-search.netlify.app)
 
 ## Features
 
