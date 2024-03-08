@@ -8,6 +8,10 @@ FireDash features a sleek and modern design in the delightful "catppuccino mocha
 
 ![FireDash](./showcase/showcase.png)
 
+## Preview
+
+You can see the [preview](srinath-search.netlify.app)
+
 ## Features
 
 - **Customizable Keys**: Customize your dashboard with keys that link to your favorite websites, allowing you to navigate the web with ease. 🗝️
