@@ -4,6 +4,10 @@ Welcome to FireDash, your personalized Firefox dashboard! FireDash is a simple y
 
 FireDash features a sleek and modern design in the delightful "catppuccino mocha" color scheme, making it both visually appealing and user-friendly. 😺☕️
 
+## Showcase
+
+![FireDash](./showcase/showcase.png)
+
 ## Features
 
 - **Customizable Keys**: Customize your dashboard with keys that link to your favorite websites, allowing you to navigate the web with ease. 🗝️
